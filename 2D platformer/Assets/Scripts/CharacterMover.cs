@@ -1,14 +1,19 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Rotator))]
+[RequireComponent(typeof(Jumped))]
 public class CharacterMover : MonoBehaviour
 {
-    private float _speed = 500f;
-    private float _jumpForce = 12f;
     private Rigidbody2D _rigidbody2D;
+    private Rotator _rotator;
+    private Jumped _jumped;
+    private float _speed = 500f;
 
     private void Awake()
     {
+        _jumped = GetComponent<Jumped>();
+        _rotator = GetComponent<Rotator>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
@@ -16,23 +21,11 @@ public class CharacterMover : MonoBehaviour
     {
         _rigidbody2D.velocity = new Vector2(direction * _speed * Time.fixedDeltaTime, _rigidbody2D.velocity.y);
 
-        if(direction > 0)
-        {
-            Quaternion rotation = transform.rotation;
-            rotation.y = 0;
-            transform.rotation = rotation;
-        }
-
-        if (direction < 0)
-        {
-            Quaternion rotation = transform.rotation;
-            rotation.y = 180;
-            transform.rotation = rotation;
-        }
+        _rotator.RotationCharacter(direction);
     }
 
     public void Jump()
     {
-        _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, _jumpForce);
+        _jumped.Jump();
     }
 }

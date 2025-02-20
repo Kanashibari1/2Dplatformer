@@ -7,7 +7,7 @@ public class InputReader : MonoBehaviour
 
     public float Direction { get; private set; }
 
-    void Update()
+    private void Update()
     {
         Direction = Input.GetAxis(Horizontal);
 

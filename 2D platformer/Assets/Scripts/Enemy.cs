@@ -2,6 +2,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(EnemyMover))]
 [RequireComponent(typeof(GroundDetector))]
+[RequireComponent(typeof(AnimationJump))]
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private Transform[] _wayPoints;
@@ -9,11 +10,11 @@ public class Enemy : MonoBehaviour
     private int _index;
     private EnemyMover _enemyMover;
     private GroundDetector _groundDetector;
-    private Animator _animator;
+    private AnimationJump _animationJump;
 
     private void Awake()
     {
-        _animator = GetComponent<Animator>();
+        _animationJump = GetComponent<AnimationJump>();
         _groundDetector = GetComponent<GroundDetector>();
         _enemyMover = GetComponent<EnemyMover>();
     }
@@ -29,7 +30,7 @@ public class Enemy : MonoBehaviour
 
         if (_groundDetector.IsGround)
         {
-            _animator.SetTrigger("Jump");
+            _animationJump.Jump();
             _enemyMover.Jump();
         }
     }
