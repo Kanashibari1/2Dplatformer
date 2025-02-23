@@ -4,7 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(GroundDetector))]
 [RequireComponent(typeof(AnimationEnemy))]
 [RequireComponent(typeof(EnemyHit))]
-[RequireComponent(typeof(HealthEnemy))]
+[RequireComponent(typeof(HealthCharacterAndEnemy))]
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private Transform[] _wayPoints;
@@ -14,13 +14,13 @@ public class Enemy : MonoBehaviour
     private GroundDetector _groundDetector;
     private AnimationEnemy _animationEnemy;
     private CharacterDetector _characterDetector;
-    private HealthEnemy _healthEnemy;
+    private HealthCharacterAndEnemy _healthEnemy;
 
     public void Damage(int damage) => _healthEnemy.TakeDamage(damage);
 
     private void Awake()
     {
-        _healthEnemy = GetComponent<HealthEnemy>();
+        _healthEnemy = GetComponent<HealthCharacterAndEnemy>();
         _characterDetector = GetComponent<CharacterDetector>();
         _animationEnemy = GetComponent<AnimationEnemy>();
         _groundDetector = GetComponent<GroundDetector>();

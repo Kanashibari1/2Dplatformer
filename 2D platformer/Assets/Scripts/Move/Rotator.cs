@@ -9,7 +9,7 @@ public class Rotator : MonoBehaviour
         _rotation = transform.rotation;
     }
 
-    public void Rotation(float direction)
+    public void Rotate(float direction)
     {
         if (direction > 0)
         {

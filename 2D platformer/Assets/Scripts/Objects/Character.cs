@@ -4,7 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterMover))]
 [RequireComponent(typeof(GroundDetector))]
 [RequireComponent(typeof(AnimationCharacter))]
-[RequireComponent(typeof(HealthCharacter))]
+[RequireComponent(typeof(HealthCharacterAndEnemy))]
 [RequireComponent(typeof(CharacterHit))]
 public class Character : MonoBehaviour
 {
@@ -12,7 +12,7 @@ public class Character : MonoBehaviour
     private InputReader _inputReader;
     private CharacterMover _mover;
     private AnimationCharacter _animationCharacter;
-    private HealthCharacter _healthCharacter;
+    private HealthCharacterAndEnemy _healthCharacter;
 
     public CharacterHit CharacterHit { get; private set; }
 
@@ -21,7 +21,7 @@ public class Character : MonoBehaviour
     private void Awake()
     {
         CharacterHit = GetComponent<CharacterHit>();
-        _healthCharacter = GetComponent<HealthCharacter>();
+        _healthCharacter = GetComponent<HealthCharacterAndEnemy>();
         _animationCharacter = GetComponent<AnimationCharacter>();
         _inputReader = GetComponent<InputReader>();
         _mover = GetComponent<CharacterMover>();
@@ -54,10 +54,11 @@ public class Character : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.TryGetComponent<Health>(out Health health))
+        if (collision.gameObject.TryGetComponent<Heart>(out Heart heart))
         {
-            _healthCharacter.Health(health.HealthPoint);
-            health.BrakeHealth();
+            int health = _healthCharacter._currentHealth + heart.RestoreHealth;
+            _healthCharacter.Heal(health);
+            heart.Brake();
         }
 
     }

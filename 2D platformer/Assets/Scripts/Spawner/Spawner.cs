@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class SpawnerHealth : MonoBehaviour
+public class Spawner<T> : MonoBehaviour where T : MonoBehaviour
 {
-    [SerializeField] private Health _healthPrefab;
+    [SerializeField] private T _prefab;
     [SerializeField] private Transform[] _position;
 
     private void Start()
@@ -14,7 +14,7 @@ public class SpawnerHealth : MonoBehaviour
     {
         for (int i = 0; i < _position.Length; i++)
         {
-            Instantiate(_healthPrefab, _position[i].position, _position[i].rotation);
+            Instantiate(_prefab, _position[i].position, _position[i].rotation);
         }
     }
 }

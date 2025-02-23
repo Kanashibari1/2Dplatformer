@@ -60,13 +60,13 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.55f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Objects\Health.cs" />
+    <Compile Include="Assets\Scripts\Spawner\HeartSpawner.cs" />
+    <Compile Include="Assets\Scripts\Objects\Heart.cs" />
     <Compile Include="Assets\Scripts\Animation\AnimatorData.cs" />
-    <Compile Include="Assets\Scripts\Health\HealthEnemy.cs" />
     <Compile Include="Assets\Scripts\Damage\EnemyHit.cs" />
+    <Compile Include="Assets\Scripts\Move\Jump.cs" />
     <Compile Include="Assets\Scripts\Spawner\SpawnerCoin.cs" />
     <Compile Include="Assets\Scripts\Move\Rotator.cs" />
-    <Compile Include="Assets\Scripts\Spawner\SpawnerHealth.cs" />
     <Compile Include="Assets\Scripts\Animation\AnimationCharacter.cs" />
     <Compile Include="Assets\Scripts\Detector\GroundDetector.cs" />
     <Compile Include="Assets\Scripts\Detector\CharacterDetector.cs" />
@@ -77,9 +77,9 @@
     <Compile Include="Assets\Scripts\Objects\Enemy.cs" />
     <Compile Include="Assets\Scripts\Move\EnemyMover.cs" />
     <Compile Include="Assets\Scripts\Objects\Ground.cs" />
+    <Compile Include="Assets\Scripts\Health\HealthCharacterAndEnemy.cs" />
     <Compile Include="Assets\Scripts\Objects\Coin.cs" />
-    <Compile Include="Assets\Scripts\Move\Jumped.cs" />
-    <Compile Include="Assets\Scripts\Health\HealthCharacter.cs" />
+    <Compile Include="Assets\Scripts\Spawner\Spawner.cs" />
     <Compile Include="Assets\Scripts\Animation\AnimationEnemy.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class HealthCharacter : MonoBehaviour
+public class HealthCharacterAndEnemy : MonoBehaviour
 {
-    private int _currentHealth;
-    private int _maxHealth = 100;
+    public int _currentHealth { get; private set; }
+    [SerializeField] private int _maxHealth;
 
     private void Awake()
     {
@@ -25,9 +25,9 @@ public class HealthCharacter : MonoBehaviour
         Destroy(gameObject);
     }
 
-    public void Health(int health)
+    public void Heal(int health)
     {
-        if(_currentHealth + health > _maxHealth) 
+        if(health > _maxHealth) 
             return;
 
         _currentHealth += health;

@@ -3,36 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\assets\\scripts\\health\\healthenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\health\\healthenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\assets\\scripts\\move\\jumped.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\move\\jumped.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\assets\\scripts\\damage\\characterhit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\damage\\characterhit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\assets\\scripts\\objects\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|c:\\users\\pirog\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\visual studio\\\u0440\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2dplatformer\\2d platformer\\assets\\scripts\\health\\healthcharacterandenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\health\\healthcharacterandenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\assets\\scripts\\damage\\enemyhit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\damage\\enemyhit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\assets\\scripts\\move\\rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\move\\rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\assets\\scripts\\objects\\heart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\heart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\assets\\scripts\\spawner\\heartspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawner\\heartspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\assets\\scripts\\spawner\\spawnercoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawner\\spawnercoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\assets\\scripts\\spawner\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawner\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\assets\\scripts\\move\\jump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\move\\jump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\assets\\scripts\\objects\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\assets\\scripts\\health\\healthcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\health\\healthcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\assets\\scripts\\objects\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\assets\\scripts\\move\\rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\move\\rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\assets\\scripts\\damage\\characterhit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\damage\\characterhit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\assets\\scripts\\detector\\characterdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,14 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\assets\\scripts\\move\\enemymover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\move\\enemymover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|c:\\users\\pirog\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\visual studio\\\u0440\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2dplatformer\\2d platformer\\assets\\scripts\\objects\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\assets\\scripts\\spawner\\spawnerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12D39182-CD11-4153-909C-913D19F318EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawner\\spawnerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,59 +74,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Health.cs",
-              "DocumentMoniker": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Objects\\Health.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\Health.cs",
-              "ToolTip": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Objects\\Health.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Objects\\Health.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Spawner.cs",
+              "DocumentMoniker": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Spawner\\Spawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Spawner\\Spawner.cs",
+              "ToolTip": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Spawner\\Spawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Spawner\\Spawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T13:27:57.735Z",
+              "WhenOpened": "2025-02-23T13:40:11.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SpawnerHealth.cs",
-              "DocumentMoniker": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Spawner\\SpawnerHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Spawner\\SpawnerHealth.cs",
-              "ToolTip": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Spawner\\SpawnerHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Spawner\\SpawnerHealth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "SpawnerCoin.cs",
+              "DocumentMoniker": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Spawner\\SpawnerCoin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Spawner\\SpawnerCoin.cs",
+              "ToolTip": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Spawner\\SpawnerCoin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Spawner\\SpawnerCoin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T13:50:32.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HeartSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Spawner\\HeartSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Spawner\\HeartSpawner.cs",
+              "ToolTip": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Spawner\\HeartSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Spawner\\HeartSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-22T13:27:16.764Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HealthEnemy.cs",
-              "DocumentMoniker": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Health\\HealthEnemy.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Health\\HealthEnemy.cs",
-              "ToolTip": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Health\\HealthEnemy.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Health\\HealthEnemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T11:56:59.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Jumped.cs",
-              "DocumentMoniker": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Move\\Jumped.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Move\\Jumped.cs",
-              "ToolTip": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Move\\Jumped.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Move\\Jumped.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T11:55:47.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Heart.cs",
+              "DocumentMoniker": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Objects\\Heart.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\Heart.cs",
+              "ToolTip": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Objects\\Heart.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Objects\\Heart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T13:27:57.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Jump.cs",
+              "DocumentMoniker": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Move\\Jump.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Move\\Jump.cs",
+              "ToolTip": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Move\\Jump.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Move\\Jump.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T11:55:47.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "CharacterHit.cs",
               "DocumentMoniker": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Damage\\CharacterHit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Damage\\CharacterHit.cs",
@@ -130,25 +146,24 @@
               "RelativeToolTip": "Assets\\Scripts\\Damage\\CharacterHit.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T11:25:18.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-22T11:25:18.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Objects\\Character.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\Character.cs",
               "ToolTip": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Objects\\Character.cs",
               "RelativeToolTip": "Assets\\Scripts\\Objects\\Character.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-22T10:58:38.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "EnemyHit.cs",
               "DocumentMoniker": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Damage\\EnemyHit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Damage\\EnemyHit.cs",
@@ -161,33 +176,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Rotator.cs",
               "DocumentMoniker": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Move\\Rotator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Move\\Rotator.cs",
               "ToolTip": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Move\\Rotator.cs",
               "RelativeToolTip": "Assets\\Scripts\\Move\\Rotator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T07:40:12.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-22T07:40:12.469Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Objects\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\Enemy.cs",
               "ToolTip": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Objects\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Objects\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T07:37:57.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-22T07:37:57.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "EnemyMover.cs",
               "DocumentMoniker": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Move\\EnemyMover.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Move\\EnemyMover.cs",
@@ -195,12 +208,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Move\\EnemyMover.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T07:10:23.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-22T07:10:23.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "CharacterDetector.cs",
               "DocumentMoniker": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Detector\\CharacterDetector.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Detector\\CharacterDetector.cs",
@@ -208,18 +220,17 @@
               "RelativeToolTip": "Assets\\Scripts\\Detector\\CharacterDetector.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T07:09:38.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-22T07:09:38.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HealthCharacter.cs",
-              "DocumentMoniker": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Health\\HealthCharacter.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Health\\HealthCharacter.cs",
-              "ToolTip": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Health\\HealthCharacter.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Health\\HealthCharacter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "HealthCharacterAndEnemy.cs",
+              "DocumentMoniker": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Health\\HealthCharacterAndEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Health\\HealthCharacterAndEnemy.cs",
+              "ToolTip": "C:\\Users\\pirog\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gfhjkb\\Visual studio\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439\\2Dplatformer\\2D platformer\\Assets\\Scripts\\Health\\HealthCharacterAndEnemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Health\\HealthCharacterAndEnemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-22T06:47:11.197Z",
               "EditorCaption": ""
