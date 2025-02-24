@@ -1,8 +1,8 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
-[RequireComponent(typeof(AnimatorData))]
-public class AnimationCharacter : MonoBehaviour
+[RequireComponent(typeof(DataAnimator))]
+public class CharacterAnimator : MonoBehaviour
 {
     private Animator _animator;
 
@@ -13,11 +13,11 @@ public class AnimationCharacter : MonoBehaviour
 
     public void Run(bool isRun)
     {
-        _animator.SetBool(AnimatorData.Params.Run, isRun);
+        _animator.SetBool(DataAnimator.Params.Run, isRun);
     }
 
     public void Jump()
     {
-        _animator.SetTrigger(AnimatorData.Params.Jump);
+        _animator.SetTrigger(DataAnimator.Params.Jump);
     }
 }

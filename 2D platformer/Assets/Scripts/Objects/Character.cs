@@ -3,16 +3,16 @@ using UnityEngine;
 [RequireComponent(typeof(InputReader))]
 [RequireComponent(typeof(CharacterMover))]
 [RequireComponent(typeof(GroundDetector))]
-[RequireComponent(typeof(AnimationCharacter))]
-[RequireComponent(typeof(HealthCharacterAndEnemy))]
+[RequireComponent(typeof(CharacterAnimator))]
+[RequireComponent(typeof(Health))]
 [RequireComponent(typeof(CharacterHit))]
 public class Character : MonoBehaviour
 {
     private GroundDetector _groundDetector;
     private InputReader _inputReader;
     private CharacterMover _mover;
-    private AnimationCharacter _animationCharacter;
-    private HealthCharacterAndEnemy _healthCharacter;
+    private CharacterAnimator _animationCharacter;
+    private Health _healthCharacter;
 
     public CharacterHit CharacterHit { get; private set; }
 
@@ -21,8 +21,8 @@ public class Character : MonoBehaviour
     private void Awake()
     {
         CharacterHit = GetComponent<CharacterHit>();
-        _healthCharacter = GetComponent<HealthCharacterAndEnemy>();
-        _animationCharacter = GetComponent<AnimationCharacter>();
+        _healthCharacter = GetComponent<Health>();
+        _animationCharacter = GetComponent<CharacterAnimator>();
         _inputReader = GetComponent<InputReader>();
         _mover = GetComponent<CharacterMover>();
         _groundDetector = GetComponent<GroundDetector>();
@@ -56,7 +56,7 @@ public class Character : MonoBehaviour
     {
         if (collision.gameObject.TryGetComponent<Heart>(out Heart heart))
         {
-            int health = _healthCharacter._currentHealth + heart.RestoreHealth;
+            int health = _healthCharacter.CurrentHealth + heart.RestoreHealth;
             _healthCharacter.Heal(health);
             heart.Brake();
         }

@@ -1,20 +1,21 @@
 using UnityEngine;
 
-public class HealthCharacterAndEnemy : MonoBehaviour
+public class Health : MonoBehaviour
 {
-    public int _currentHealth { get; private set; }
     [SerializeField] private int _maxHealth;
+
+    public int CurrentHealth { get; private set; }
 
     private void Awake()
     {
-        _currentHealth = _maxHealth;
+        CurrentHealth = _maxHealth;
     }
 
     public void TakeDamage(int damage)
     {
-        _currentHealth -= damage;
+        CurrentHealth -= damage;
 
-        if (_currentHealth == 0)
+        if (CurrentHealth == 0)
         {
             Die();
         }
@@ -30,6 +31,6 @@ public class HealthCharacterAndEnemy : MonoBehaviour
         if(health > _maxHealth) 
             return;
 
-        _currentHealth += health;
+        CurrentHealth += health;
     }
 }

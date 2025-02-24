@@ -2,17 +2,17 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Rotator))]
-[RequireComponent(typeof(Jump))]
+[RequireComponent(typeof(Jumper))]
 public class CharacterMover : MonoBehaviour
 {
     private Rigidbody2D _rigidbody2D;
     private Rotator _rotator;
-    private Jump _jumped;
+    private Jumper _jumped;
     private float _speed = 500f;
 
     private void Awake()
     {
-        _jumped = GetComponent<Jump>();
+        _jumped = GetComponent<Jumper>();
         _rotator = GetComponent<Rotator>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
     }
@@ -26,6 +26,6 @@ public class CharacterMover : MonoBehaviour
 
     public void Jump()
     {
-        _jumped.MakeJump();
+        _jumped.Jump();
     }
 }

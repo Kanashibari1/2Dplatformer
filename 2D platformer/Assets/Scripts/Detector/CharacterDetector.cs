@@ -6,7 +6,7 @@ public class CharacterDetector : MonoBehaviour
 
     private int _radius = 5;
 
-    public Collider2D Detector()
+    public Collider2D Detect()
     {
         Collider2D found = Physics2D.OverlapCircle(transform.position, _radius, _mask);
 

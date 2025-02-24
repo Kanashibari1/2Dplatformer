@@ -2,19 +2,19 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Rotator))]
-[RequireComponent(typeof(Jump))]
+[RequireComponent(typeof(Jumper))]
 public class EnemyMover : MonoBehaviour
 {
     private const float Threshold = 1f;
 
-    private Jump _jumped;
+    private Jumper _jumped;
     private Rigidbody2D _rigidbody2D;
     private Rotator _rotator;
     private float _speed = 50f;
 
     private void Awake()
     {
-        _jumped = GetComponent<Jump>();
+        _jumped = GetComponent<Jumper>();
         _rotator = GetComponent<Rotator>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
     }
@@ -29,7 +29,7 @@ public class EnemyMover : MonoBehaviour
 
     public void Jump()
     {
-        _jumped.MakeJump();
+        _jumped.Jump();
     }
 
     public bool HasReachedTarget(Transform position)

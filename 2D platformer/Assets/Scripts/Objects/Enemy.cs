@@ -2,9 +2,9 @@ using UnityEngine;
 
 [RequireComponent(typeof(EnemyMover))]
 [RequireComponent(typeof(GroundDetector))]
-[RequireComponent(typeof(AnimationEnemy))]
+[RequireComponent(typeof(EnemyAnimator))]
 [RequireComponent(typeof(EnemyHit))]
-[RequireComponent(typeof(HealthCharacterAndEnemy))]
+[RequireComponent(typeof(Health))]
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private Transform[] _wayPoints;
@@ -12,26 +12,26 @@ public class Enemy : MonoBehaviour
     private int _index;
     private EnemyMover _enemyMover;
     private GroundDetector _groundDetector;
-    private AnimationEnemy _animationEnemy;
+    private EnemyAnimator _animationEnemy;
     private CharacterDetector _characterDetector;
-    private HealthCharacterAndEnemy _healthEnemy;
+    private Health _healthEnemy;
 
     public void Damage(int damage) => _healthEnemy.TakeDamage(damage);
 
     private void Awake()
     {
-        _healthEnemy = GetComponent<HealthCharacterAndEnemy>();
+        _healthEnemy = GetComponent<Health>();
         _characterDetector = GetComponent<CharacterDetector>();
-        _animationEnemy = GetComponent<AnimationEnemy>();
+        _animationEnemy = GetComponent<EnemyAnimator>();
         _groundDetector = GetComponent<GroundDetector>();
         _enemyMover = GetComponent<EnemyMover>();
     }
 
     private void FixedUpdate()
     {
-        if (_characterDetector.Detector() != null)
+        if (_characterDetector.Detect() != null)
         {
-            Collider2D collider = _characterDetector.Detector();
+            Collider2D collider = _characterDetector.Detect();
             _enemyMover.Move(collider.transform);
         }
         else

@@ -62,12 +62,12 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Spawner\HeartSpawner.cs" />
     <Compile Include="Assets\Scripts\Objects\Heart.cs" />
-    <Compile Include="Assets\Scripts\Animation\AnimatorData.cs" />
     <Compile Include="Assets\Scripts\Damage\EnemyHit.cs" />
-    <Compile Include="Assets\Scripts\Move\Jump.cs" />
+    <Compile Include="Assets\Scripts\Animation\DataAnimator.cs" />
+    <Compile Include="Assets\Scripts\Move\Jumper.cs" />
     <Compile Include="Assets\Scripts\Spawner\SpawnerCoin.cs" />
     <Compile Include="Assets\Scripts\Move\Rotator.cs" />
-    <Compile Include="Assets\Scripts\Animation\AnimationCharacter.cs" />
+    <Compile Include="Assets\Scripts\Health\Health.cs" />
     <Compile Include="Assets\Scripts\Detector\GroundDetector.cs" />
     <Compile Include="Assets\Scripts\Detector\CharacterDetector.cs" />
     <Compile Include="Assets\Scripts\Move\InputReader.cs" />
@@ -77,10 +77,10 @@
     <Compile Include="Assets\Scripts\Objects\Enemy.cs" />
     <Compile Include="Assets\Scripts\Move\EnemyMover.cs" />
     <Compile Include="Assets\Scripts\Objects\Ground.cs" />
-    <Compile Include="Assets\Scripts\Health\HealthCharacterAndEnemy.cs" />
     <Compile Include="Assets\Scripts\Objects\Coin.cs" />
     <Compile Include="Assets\Scripts\Spawner\Spawner.cs" />
-    <Compile Include="Assets\Scripts\Animation\AnimationEnemy.cs" />
+    <Compile Include="Assets\Scripts\Animation\EnemyAnimator.cs" />
+    <Compile Include="Assets\Scripts\Animation\CharacterAnimator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BigManJD\readme.txt" />

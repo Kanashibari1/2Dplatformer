@@ -1,8 +1,8 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
-[RequireComponent(typeof(AnimatorData))]
-public class AnimationEnemy : MonoBehaviour
+[RequireComponent(typeof(DataAnimator))]
+public class EnemyAnimator : MonoBehaviour
 {
     private Animator _animator;
 
@@ -13,6 +13,6 @@ public class AnimationEnemy : MonoBehaviour
 
     public void Jump()
     {
-        _animator.SetTrigger(AnimatorData.Params.Jump);
+        _animator.SetTrigger(DataAnimator.Params.Jump);
     }
 }

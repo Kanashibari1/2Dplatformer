@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class AnimatorData : MonoBehaviour
+public class DataAnimator : MonoBehaviour
 {
     public class Params
     {
