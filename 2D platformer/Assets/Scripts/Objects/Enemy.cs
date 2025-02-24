@@ -14,13 +14,13 @@ public class Enemy : MonoBehaviour
     private GroundDetector _groundDetector;
     private EnemyAnimator _animationEnemy;
     private CharacterDetector _characterDetector;
-    private Health _healthEnemy;
+    private Health _health;
 
-    public void Damage(int damage) => _healthEnemy.TakeDamage(damage);
+    public void Damage(int damage) => _health.TakeDamage(damage);
 
     private void Awake()
     {
-        _healthEnemy = GetComponent<Health>();
+        _health = GetComponent<Health>();
         _characterDetector = GetComponent<CharacterDetector>();
         _animationEnemy = GetComponent<EnemyAnimator>();
         _groundDetector = GetComponent<GroundDetector>();

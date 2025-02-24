@@ -8,7 +8,7 @@ public class EnemyHit : MonoBehaviour
     {
         if (collision.gameObject.TryGetComponent<Character>(out Character character))
         {
-            if(character.CharacterHit._isOnHead == false)
+            if(character.CharacterHit.IsOnHead == false)
             character.Damage(_damage);
         }
     }

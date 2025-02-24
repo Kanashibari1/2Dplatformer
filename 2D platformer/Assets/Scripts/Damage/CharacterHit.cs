@@ -6,7 +6,7 @@ public class CharacterHit : MonoBehaviour
     private int _force = 10;
     private Rigidbody2D _rigidbody2D;
 
-    public bool _isOnHead { get; private set; } = false;
+    public bool IsOnHead { get; private set; } = false;
 
     private void Awake()
     {
@@ -22,13 +22,13 @@ public class CharacterHit : MonoBehaviour
 
             if(contact.y > position.y)
             {
-                _isOnHead = true;
+                IsOnHead = true;
                 enemy.Damage(_damage);
                 ApplyKnockback();
             }
             else
             {
-                _isOnHead = false;
+                IsOnHead = false;
             }
         }
     }

@@ -16,7 +16,6 @@ public class Rotator : MonoBehaviour
             _rotation.y = 0;
             transform.rotation = _rotation;
         }
-
         else if (direction < 0)
         {
             _rotation.y = 180;

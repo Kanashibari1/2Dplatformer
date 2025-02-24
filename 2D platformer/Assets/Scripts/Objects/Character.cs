@@ -58,7 +58,7 @@ public class Character : MonoBehaviour
         {
             int health = _healthCharacter.CurrentHealth + heart.RestoreHealth;
             _healthCharacter.Heal(health);
-            heart.Brake();
+            heart.Break();
         }
 
     }
