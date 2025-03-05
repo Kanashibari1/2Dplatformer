@@ -56,10 +56,8 @@ public class Character : MonoBehaviour
     {
         if (collision.gameObject.TryGetComponent<Heart>(out Heart heart))
         {
-            int health = _healthCharacter.CurrentHealth + heart.RestoreHealth;
-            _healthCharacter.Heal(health);
+            _healthCharacter.Heal(heart.RestoreHealth);
             heart.Break();
         }
-
     }
 }

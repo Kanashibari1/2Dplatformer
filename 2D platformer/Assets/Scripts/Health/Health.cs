@@ -1,14 +1,17 @@
+using System;
 using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] private int _maxHealth;
+    public int MaxHealth { get; private set; } = 100;
 
     public int CurrentHealth { get; private set; }
 
+    public event Action HealthChanged;
+
     private void Awake()
     {
-        CurrentHealth = _maxHealth;
+        CurrentHealth = MaxHealth;
     }
 
     public void TakeDamage(int damage)
@@ -19,6 +22,8 @@ public class Health : MonoBehaviour
         {
             Die();
         }
+        HealthChanged?.Invoke();
+        Debug.Log(CurrentHealth);
     }
 
     private void Die()
@@ -26,11 +31,15 @@ public class Health : MonoBehaviour
         Destroy(gameObject);
     }
 
-    public void Heal(int health)
+    public void Heal(int heal)
     {
-        if(health > _maxHealth) 
+        int currentHealth = CurrentHealth + heal;
+
+        if(currentHealth > MaxHealth) 
             return;
 
-        CurrentHealth += health;
+        CurrentHealth += heal;
+        Debug.Log(CurrentHealth);
+        HealthChanged?.Invoke();
     }
 }
