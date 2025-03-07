@@ -1,43 +1,35 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class HealthSmoothBar : MonoBehaviour
+public class HealthSmoothBar : HealthView
 {
-    [SerializeField] private Health _health;
-
-    private Slider _slider;
+    private Coroutine _ñoroutine;
     private float _smoothSpeed = 0.3f;
+    private int _currentValue;
 
-    private void Awake()
+    protected override void UpdateHealth(int currentValue)
     {
-        _slider = GetComponent<Slider>();
+        _currentValue = currentValue;
+
+        if (_ñoroutine == null)
+            _ñoroutine = StartCoroutine(SmoothlyUpdate());
     }
 
-    private void OnEnable()
+    void Update()
     {
-        _health.HealthChanged += StartHealthUpdate;
+        transform.rotation = Quaternion.Euler(0, 0, 0);
     }
 
-    private void OnDisable()
+    private IEnumerator SmoothlyUpdate()
     {
-        _health.HealthChanged -= StartHealthUpdate;
-        StopCoroutine(UpdateHealth());
-    }
-
-    private void StartHealthUpdate()
-    {
-        StartCoroutine(UpdateHealth());
-    }
-
-    private IEnumerator UpdateHealth()
-    {
-        float targetValue = _health.CurrentHealth / (float)_health.MaxHealth;
+        float targetValue = _currentValue / (float)_health.MaxValue;
 
         while (Mathf.Approximately(_slider.value, targetValue) != true)
         {
             _slider.value = Mathf.MoveTowards(_slider.value, targetValue, _smoothSpeed * Time.deltaTime);
             yield return null;
         }
+
+        _ñoroutine = null;
     }
 }
