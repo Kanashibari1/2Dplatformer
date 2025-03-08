@@ -16,7 +16,7 @@ public class Character : MonoBehaviour
 
     public CharacterHit CharacterHit { get; private set; }
 
-    public void Damage(int damage) => _healthCharacter.TakeDamage(damage);
+    public void Damage(float damage) => _healthCharacter.TakeDamage(damage);
 
     private void Awake()
     {

@@ -13,15 +13,15 @@ public class Enemy : MonoBehaviour
     private EnemyMover _enemyMover;
     private GroundDetector _groundDetector;
     private EnemyAnimator _animationEnemy;
-    private CharacterDetector _characterDetector;
+    private Detector _characterDetector;
     private Health _health;
 
-    public void Damage(int damage) => _health.TakeDamage(damage);
+    public void Damage(float damage) => _health.TakeDamage(damage);
 
     private void Awake()
     {
         _health = GetComponent<Health>();
-        _characterDetector = GetComponent<CharacterDetector>();
+        _characterDetector = GetComponent<Detector>();
         _animationEnemy = GetComponent<EnemyAnimator>();
         _groundDetector = GetComponent<GroundDetector>();
         _enemyMover = GetComponent<EnemyMover>();

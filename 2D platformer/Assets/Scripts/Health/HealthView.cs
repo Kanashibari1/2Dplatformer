@@ -22,5 +22,5 @@ public abstract class HealthView : MonoBehaviour
         _health.ValueChanged -= UpdateHealth;
     }
 
-    protected abstract void UpdateHealth(int currentValue);
+    protected abstract void UpdateHealth(float currentValue);
 }

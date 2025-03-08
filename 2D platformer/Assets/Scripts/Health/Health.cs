@@ -3,22 +3,22 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    public int MaxValue { get; private set; } = 100;
+    public event Action<float> ValueChanged;
 
-    public int CurrentValue { get; private set; }
+    public float MaxValue { get; private set; } = 100;
 
-    public event Action<int> ValueChanged;
+    public float CurrentValue { get; private set; }
 
     private void Awake()
     {
         CurrentValue = MaxValue;
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         CurrentValue -= damage;
 
-        if (CurrentValue == 0)
+        if (CurrentValue <= 0)
         {
             Die();
         }
@@ -30,9 +30,9 @@ public class Health : MonoBehaviour
         Destroy(gameObject);
     }
 
-    public void Heal(int heal)
+    public void Heal(float heal)
     {
-        int currentHealth = CurrentValue + heal;
+        float currentHealth = CurrentValue + heal;
 
         if(currentHealth > MaxValue) 
             return;

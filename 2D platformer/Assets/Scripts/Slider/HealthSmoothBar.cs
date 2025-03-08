@@ -5,9 +5,9 @@ public class HealthSmoothBar : HealthView
 {
     private Coroutine _ñoroutine;
     private float _smoothSpeed = 0.3f;
-    private int _currentValue;
+    private float _currentValue;
 
-    protected override void UpdateHealth(int currentValue)
+    protected override void UpdateHealth(float currentValue)
     {
         _currentValue = currentValue;
 
@@ -15,14 +15,14 @@ public class HealthSmoothBar : HealthView
             _ñoroutine = StartCoroutine(SmoothlyUpdate());
     }
 
-    void Update()
+    private void Update()
     {
         transform.rotation = Quaternion.Euler(0, 0, 0);
     }
 
     private IEnumerator SmoothlyUpdate()
     {
-        float targetValue = _currentValue / (float)_health.MaxValue;
+        float targetValue = _currentValue / _health.MaxValue;
 
         while (Mathf.Approximately(_slider.value, targetValue) != true)
         {
